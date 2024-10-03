@@ -29,7 +29,7 @@ def speak()
         try:
             text = recognizer.recognize_google(audio)
             print("You said: " + text)
-            handle_command(text.lower())
+            handle_command(text.)
         except sr.UnknownValueError:
             speak("Sorry, I did not understand the audio.")
         except sr.RequestError:
