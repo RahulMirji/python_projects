@@ -21,7 +21,7 @@ def handle_command(command):
         speak("Playing music")
     # Add more commands as needed
 
-def main():
+
     """Main function to listen for commands and process them."""
     with sr.Microphone() as source:
         speak("Listening...")
